@@ -1,0 +1,195 @@
+09-Jul-2023 04:52:17.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì„œë²„ ë²„ì „ ì´ë¦„:    Apache Tomcat/8.5.90
+09-Jul-2023 04:52:17.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë¹Œë“œ ì‹œê°:  Jun 2 2023 17:14:04 UTC
+09-Jul-2023 04:52:17.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë²„ì „ ë²ˆí˜¸:  8.5.90.0
+09-Jul-2023 04:52:17.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ì´ë¦„:     Windows 10
+09-Jul-2023 04:52:17.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ë²„ì „:     10.0
+09-Jul-2023 04:52:17.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì•„í‚¤í…ì²˜:          amd64
+09-Jul-2023 04:52:17.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìë°” í™ˆ:           C:\Program Files\Java\jdk-11.0.16.1
+09-Jul-2023 04:52:17.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²„ì „:          11.0.16.1+1-LTS-1
+09-Jul-2023 04:52:17.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²¤ë”:          Oracle Corporation
+09-Jul-2023 04:52:17.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 04:52:17.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 04:52:17.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2023 04:52:17.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2023 04:52:17.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2023 04:52:17.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2023 04:52:17.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2023 04:52:17.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.config.file=D:\coding\apache-tomcat-8.5.90\conf\logging.properties
+09-Jul-2023 04:52:17.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2023 04:52:17.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2023 04:52:17.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2023 04:52:17.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dignore.endorsed.dirs=
+09-Jul-2023 04:52:17.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.base=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 04:52:17.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.home=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 04:52:17.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.io.tmpdir=D:\coding\apache-tomcat-8.5.90\temp
+09-Jul-2023 04:52:17.725 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ë²„ì „ [1.7.4]ì„(ë¥¼) ì‚¬ìš©í•œ, APR ê¸°ë°˜ Apache Tomcat Native ë¼ì´ë¸ŒëŸ¬ë¦¬ [1.2.37]ì„(ë¥¼) ë¡œë“œí–ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:17.727 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ìš©ëŸ‰ì •ë³´ë“¤: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+09-Jul-2023 04:52:17.728 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL ì„¤ì •: useAprConnector [false], useOpenSSL [true]
+09-Jul-2023 04:52:17.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLì´ ì„±ê³µì ìœ¼ë¡œ ì´ˆê¸°í™”ë˜ì—ˆìŠµë‹ˆë‹¤: [OpenSSL 1.1.1u  30 May 2023]
+09-Jul-2023 04:52:17.886 INFO [main] org.apache.coyote.AbstractProtocol.init í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-48080"]ì„(ë¥¼) ì´ˆê¸°í™”í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:17.919 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 637 ms
+09-Jul-2023 04:52:17.979 INFO [main] org.apache.catalina.core.StandardService.startInternal ì„œë¹„ìŠ¤ [Catalina]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:17.982 INFO [main] org.apache.catalina.core.StandardEngine.startInternal ì„œë²„ ì—”ì§„ì„ ì‹œì‘í•©ë‹ˆë‹¤: [Apache Tomcat/8.5.90]
+09-Jul-2023 04:52:17.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\docs]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:18.401 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:18.796 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ì—¬, ì„¸ì…˜ IDë¥¼ ìƒì„±í•˜ê¸° ìœ„í•œ SecureRandom ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ”ë°, [359] ë°€ë¦¬ì´ˆê°€ ì†Œìš”ëìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:18.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\docs]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [836] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:18.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\examples]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.125 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\examples]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [332] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.281 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [121] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\manager]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.395 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\manager]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [108] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.508 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [111] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\todolist]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.599 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\todolist]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [95] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 04:52:19.615 INFO [main] org.apache.coyote.AbstractProtocol.start í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-48080"]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+09-Jul-2023 04:52:19.974 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2054 ms
+09-Jul-2023 23:26:37.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì„œë²„ ë²„ì „ ì´ë¦„:    Apache Tomcat/8.5.90
+09-Jul-2023 23:26:37.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë¹Œë“œ ì‹œê°:  Jun 2 2023 17:14:04 UTC
+09-Jul-2023 23:26:37.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë²„ì „ ë²ˆí˜¸:  8.5.90.0
+09-Jul-2023 23:26:37.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ì´ë¦„:     Windows 10
+09-Jul-2023 23:26:37.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ë²„ì „:     10.0
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì•„í‚¤í…ì²˜:          amd64
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìë°” í™ˆ:           C:\Program Files\Java\jdk-11.0.16.1
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²„ì „:          11.0.16.1+1-LTS-1
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²¤ë”:          Oracle Corporation
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:26:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:26:37.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2023 23:26:37.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2023 23:26:37.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2023 23:26:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2023 23:26:37.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2023 23:26:37.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.config.file=D:\coding\apache-tomcat-8.5.90\conf\logging.properties
+09-Jul-2023 23:26:37.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2023 23:26:37.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2023 23:26:37.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2023 23:26:37.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dignore.endorsed.dirs=
+09-Jul-2023 23:26:37.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.base=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:26:37.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.home=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:26:37.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.io.tmpdir=D:\coding\apache-tomcat-8.5.90\temp
+09-Jul-2023 23:26:37.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ë²„ì „ [1.7.4]ì„(ë¥¼) ì‚¬ìš©í•œ, APR ê¸°ë°˜ Apache Tomcat Native ë¼ì´ë¸ŒëŸ¬ë¦¬ [1.2.37]ì„(ë¥¼) ë¡œë“œí–ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:26:37.800 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ìš©ëŸ‰ì •ë³´ë“¤: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+09-Jul-2023 23:26:37.802 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL ì„¤ì •: useAprConnector [false], useOpenSSL [true]
+09-Jul-2023 23:26:37.827 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLì´ ì„±ê³µì ìœ¼ë¡œ ì´ˆê¸°í™”ë˜ì—ˆìŠµë‹ˆë‹¤: [OpenSSL 1.1.1u  30 May 2023]
+09-Jul-2023 23:26:37.966 INFO [main] org.apache.coyote.AbstractProtocol.init í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-48080"]ì„(ë¥¼) ì´ˆê¸°í™”í•©ë‹ˆë‹¤.
+09-Jul-2023 23:26:37.997 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 777 ms
+09-Jul-2023 23:26:38.059 INFO [main] org.apache.catalina.core.StandardService.startInternal ì„œë¹„ìŠ¤ [Catalina]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+09-Jul-2023 23:26:38.063 INFO [main] org.apache.catalina.core.StandardEngine.startInternal ì„œë²„ ì—”ì§„ì„ ì‹œì‘í•©ë‹ˆë‹¤: [Apache Tomcat/8.5.90]
+09-Jul-2023 23:26:38.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\docs]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:26:38.516 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:26:38.959 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ì—¬, ì„¸ì…˜ IDë¥¼ ìƒì„±í•˜ê¸° ìœ„í•œ SecureRandom ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ”ë°, [408] ë°€ë¦¬ì´ˆê°€ ì†Œìš”ëìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:05.505 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer [localhost:48005] (base í¬íŠ¸ [48005] ê·¸ë¦¬ê³  offset [0])ì™€(ê³¼) ì—°ê²°í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤. Tomcatì´ ì‹¤í–‰ ì¤‘ì´ì§€ ì•Šì„ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:07.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì„œë²„ ë²„ì „ ì´ë¦„:    Apache Tomcat/8.5.90
+09-Jul-2023 23:33:07.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë¹Œë“œ ì‹œê°:  Jun 2 2023 17:14:04 UTC
+09-Jul-2023 23:33:07.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ë²„ì „ ë²ˆí˜¸:  8.5.90.0
+09-Jul-2023 23:33:07.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ì´ë¦„:     Windows 10
+09-Jul-2023 23:33:07.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìš´ì˜ì²´ì œ ë²„ì „:     10.0
+09-Jul-2023 23:33:07.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ì•„í‚¤í…ì²˜:          amd64
+09-Jul-2023 23:33:07.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ìë°” í™ˆ:           C:\Program Files\Java\jdk-11.0.16.1
+09-Jul-2023 23:33:07.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²„ì „:          11.0.16.1+1-LTS-1
+09-Jul-2023 23:33:07.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ë²¤ë”:          Oracle Corporation
+09-Jul-2023 23:33:07.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:33:07.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:33:07.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2023 23:33:07.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2023 23:33:07.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2023 23:33:07.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2023 23:33:07.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2023 23:33:07.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.config.file=D:\coding\apache-tomcat-8.5.90\conf\logging.properties
+09-Jul-2023 23:33:07.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2023 23:33:07.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2023 23:33:07.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2023 23:33:07.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dignore.endorsed.dirs=
+09-Jul-2023 23:33:07.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.base=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:33:07.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Dcatalina.home=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:33:07.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ëª…ë ¹ í–‰ ì•„ê·œë¨¼íŠ¸:  -Djava.io.tmpdir=D:\coding\apache-tomcat-8.5.90\temp
+09-Jul-2023 23:33:07.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ë²„ì „ [1.7.4]ì„(ë¥¼) ì‚¬ìš©í•œ, APR ê¸°ë°˜ Apache Tomcat Native ë¼ì´ë¸ŒëŸ¬ë¦¬ [1.2.37]ì„(ë¥¼) ë¡œë“œí–ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:07.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ìš©ëŸ‰ì •ë³´ë“¤: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+09-Jul-2023 23:33:07.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL ì„¤ì •: useAprConnector [false], useOpenSSL [true]
+09-Jul-2023 23:33:07.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLì´ ì„±ê³µì ìœ¼ë¡œ ì´ˆê¸°í™”ë˜ì—ˆìŠµë‹ˆë‹¤: [OpenSSL 1.1.1u  30 May 2023]
+09-Jul-2023 23:33:08.025 INFO [main] org.apache.coyote.AbstractProtocol.init í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-48080"]ì„(ë¥¼) ì´ˆê¸°í™”í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:08.051 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 655 ms
+09-Jul-2023 23:33:08.112 INFO [main] org.apache.catalina.core.StandardService.startInternal ì„œë¹„ìŠ¤ [Catalina]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:08.115 INFO [main] org.apache.catalina.core.StandardEngine.startInternal ì„œë²„ ì—”ì§„ì„ ì‹œì‘í•©ë‹ˆë‹¤: [Apache Tomcat/8.5.90]
+09-Jul-2023 23:33:08.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\docs]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:08.494 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:08.859 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ì—¬, ì„¸ì…˜ IDë¥¼ ìƒì„±í•˜ê¸° ìœ„í•œ SecureRandom ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ”ë°, [339] ë°€ë¦¬ì´ˆê°€ ì†Œìš”ëìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:08.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\docs]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [770] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:08.901 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\examples]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:09.241 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\examples]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [392] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:09.404 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [117] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\manager]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:09.512 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.517 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\manager]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [101] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:09.625 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [112] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\todolist]ì„(ë¥¼) ë°°ì¹˜í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:09.733 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars ì ì–´ë„ í•˜ë‚˜ì˜ JARê°€ TLDë“¤ì„ ì°¾ê¸° ìœ„í•´ ìŠ¤ìº”ë˜ì—ˆìœ¼ë‚˜ ì•„ë¬´ ê²ƒë„ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. ìŠ¤ìº”í–ˆìœ¼ë‚˜ TLDê°€ ì—†ëŠ” JARë“¤ì˜ ì „ì²´ ëª©ë¡ì„ ë³´ì‹œë ¤ë©´, ë¡œê·¸ ë ˆë²¨ì„ ë””ë²„ê·¸ ë ˆë²¨ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤. ìŠ¤ìº” ê³¼ì •ì—ì„œ ë¶ˆí•„ìš”í•œ JARë“¤ì„ ê±´ë„ˆë›°ë©´, ì‹œìŠ¤í…œ ì‹œì‘ ì‹œê°„ê³¼ JSP ì»´íŒŒì¼ ì‹œê°„ì„ ë‹¨ì¶•ì‹œí‚¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ì›¹ ì• í”Œë¦¬ì¼€ì´ì…˜ ë””ë ‰í† ë¦¬ [D:\coding\apache-tomcat-8.5.90\webapps\todolist]ì— ëŒ€í•œ ë°°ì¹˜ê°€ [112] ë°€ë¦¬ì´ˆì— ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+09-Jul-2023 23:33:09.750 INFO [main] org.apache.coyote.AbstractProtocol.start í”„ë¡œí† ì½œ í•¸ë“¤ëŸ¬ ["http-nio-48080"]ì„(ë¥¼) ì‹œì‘í•©ë‹ˆë‹¤.
+09-Jul-2023 23:33:10.110 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2058 ms
+09-Jul-2023 23:34:01.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¼­¹ö ¹öÀü ÀÌ¸§:    Apache Tomcat/8.5.90
+09-Jul-2023 23:34:01.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ºôµå ½Ã°¢:  Jun 2 2023 17:14:04 UTC
+09-Jul-2023 23:34:01.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server ¹öÀü ¹øÈ£:  8.5.90.0
+09-Jul-2023 23:34:01.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ÀÌ¸§:     Windows 10
+09-Jul-2023 23:34:01.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¿î¿µÃ¼Á¦ ¹öÀü:     10.0
+09-Jul-2023 23:34:01.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¾ÆÅ°ÅØÃ³:          amd64
+09-Jul-2023 23:34:01.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ÀÚ¹Ù È¨:           C:\Program Files\Java\jdk-11.0.16.1
+09-Jul-2023 23:34:01.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ¹öÀü:          11.0.16.1+1-LTS-1
+09-Jul-2023 23:34:01.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM º¥´õ:          Oracle Corporation
+09-Jul-2023 23:34:01.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:34:01.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:34:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2023 23:34:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2023 23:34:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2023 23:34:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2023 23:34:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2023 23:34:01.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.config.file=D:\coding\apache-tomcat-8.5.90\conf\logging.properties
+09-Jul-2023 23:34:01.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2023 23:34:01.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2023 23:34:01.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2023 23:34:01.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dignore.endorsed.dirs=
+09-Jul-2023 23:34:01.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.base=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:34:01.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Dcatalina.home=D:\coding\apache-tomcat-8.5.90
+09-Jul-2023 23:34:01.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log ¸í·É Çà ¾Æ±Ô¸ÕÆ®:  -Djava.io.tmpdir=D:\coding\apache-tomcat-8.5.90\temp
+09-Jul-2023 23:34:01.405 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ¹öÀü [1.7.4]À»(¸¦) »ç¿ëÇÑ, APR ±â¹İ Apache Tomcat Native ¶óÀÌºê·¯¸® [1.2.37]À»(¸¦) ·ÎµåÇß½À´Ï´Ù.
+09-Jul-2023 23:34:01.405 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR ¿ë·®Á¤º¸µé: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+09-Jul-2023 23:34:01.406 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL ¼³Á¤: useAprConnector [false], useOpenSSL [true]
+09-Jul-2023 23:34:01.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSLÀÌ ¼º°øÀûÀ¸·Î ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù: [OpenSSL 1.1.1u  30 May 2023]
+09-Jul-2023 23:34:01.505 INFO [main] org.apache.coyote.AbstractProtocol.init ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-48080"]À»(¸¦) ÃÊ±âÈ­ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:01.527 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 545 ms
+09-Jul-2023 23:34:01.579 INFO [main] org.apache.catalina.core.StandardService.startInternal ¼­ºñ½º [Catalina]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+09-Jul-2023 23:34:01.580 INFO [main] org.apache.catalina.core.StandardEngine.startInternal ¼­¹ö ¿£ÁøÀ» ½ÃÀÛÇÕ´Ï´Ù: [Apache Tomcat/8.5.90]
+09-Jul-2023 23:34:01.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\docs]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:01.965 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:02.322 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿©, ¼¼¼Ç ID¸¦ »ı¼ºÇÏ±â À§ÇÑ SecureRandom °´Ã¼¸¦ »ı¼ºÇÏ´Âµ¥, [340] ¹Ğ¸®ÃÊ°¡ ¼Ò¿äµÆ½À´Ï´Ù.
+09-Jul-2023 23:34:02.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\docs]¿¡ ´ëÇÑ ¹èÄ¡°¡ [749] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:02.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\examples]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:02.614 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:02.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\examples]¿¡ ´ëÇÑ ¹èÄ¡°¡ [317] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:02.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:02.768 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:02.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\host-manager]¿¡ ´ëÇÑ ¹èÄ¡°¡ [112] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:02.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\manager]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:02.873 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:02.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\manager]¿¡ ´ëÇÑ ¹èÄ¡°¡ [103] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:02.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:02.981 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:02.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\ROOT]¿¡ ´ëÇÑ ¹èÄ¡°¡ [106] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:02.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\todolist]À»(¸¦) ¹èÄ¡ÇÕ´Ï´Ù.
+09-Jul-2023 23:34:03.081 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Àû¾îµµ ÇÏ³ªÀÇ JAR°¡ TLDµéÀ» Ã£±â À§ÇØ ½ºÄµµÇ¾úÀ¸³ª ¾Æ¹« °Íµµ Ã£Áö ¸øÇß½À´Ï´Ù. ½ºÄµÇßÀ¸³ª TLD°¡ ¾ø´Â JARµéÀÇ ÀüÃ¼ ¸ñ·ÏÀ» º¸½Ã·Á¸é, ·Î±× ·¹º§À» µğ¹ö±× ·¹º§·Î ¼³Á¤ÇÏ½Ê½Ã¿À. ½ºÄµ °úÁ¤¿¡¼­ ºÒÇÊ¿äÇÑ JARµéÀ» °Ç³Ê¶Ù¸é, ½Ã½ºÅÛ ½ÃÀÛ ½Ã°£°ú JSP ÄÄÆÄÀÏ ½Ã°£À» ´ÜÃà½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+09-Jul-2023 23:34:03.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç µğ·ºÅä¸® [D:\coding\apache-tomcat-8.5.90\webapps\todolist]¿¡ ´ëÇÑ ¹èÄ¡°¡ [103] ¹Ğ¸®ÃÊ¿¡ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+09-Jul-2023 23:34:03.091 INFO [main] org.apache.coyote.AbstractProtocol.start ÇÁ·ÎÅäÄİ ÇÚµé·¯ ["http-nio-48080"]À»(¸¦) ½ÃÀÛÇÕ´Ï´Ù.
+09-Jul-2023 23:34:03.426 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1898 ms

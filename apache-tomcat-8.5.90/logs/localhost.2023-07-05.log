@@ -1,0 +1,1134 @@
+05-Jul-2023 21:46:05.649 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jul-2023 21:46:05.649 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jul-2023 21:46:05.651 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6923860c')
+05-Jul-2023 21:53:22.788 SEVERE [http-nio-48080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+request cannot be resolved
+51: 
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56: %>
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [55] 행에서 오류가 발생했습니다.
+request cannot be resolved
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56: %>
+57: 
+58:     <table>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+request cannot be resolved
+51: 
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56: %>
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [55] 행에서 오류가 발생했습니다.
+request cannot be resolved
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56: %>
+57: 
+58:     <table>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 21:58:36.599 SEVERE [http-nio-48080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+table cannot be resolved to a type
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+tr cannot be resolved to a type
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+th cannot be resolved to a type
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error on token "/", delete this token
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+tr cannot be resolved to a type
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [63] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+66: </footer>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+table cannot be resolved to a type
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [58] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+55: 	String ex = request.getParameter("ex");
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+tr cannot be resolved to a type
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [59] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+56: 
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+th cannot be resolved to a type
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [60] 행에서 오류가 발생했습니다.
+Syntax error on token "/", delete this token
+57: 
+58:     <table>
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+tr cannot be resolved to a type
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [62] 행에서 오류가 발생했습니다.
+Constructor call must be the first statement in a constructor
+59:         <tr>
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [63] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+60:             <th>Todo</th>
+61:             </tr>
+62:         <tr>
+63:         <td><%=todo%></td>
+64:         </tr>
+65:     </table>
+66: </footer>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 21:59:07.975 SEVERE [http-nio-48080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+request cannot be resolved
+51: 
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56:     %>
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [55] 행에서 오류가 발생했습니다.
+request cannot be resolved
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56:     %>
+57: 
+58:     <table>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+request cannot be resolved
+51: 
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56:     %>
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [55] 행에서 오류가 발생했습니다.
+request cannot be resolved
+52: <footer>
+53:     <%!
+54:     String todo = request.getParameter("todo");
+55: 	String ex = request.getParameter("ex");
+56:     %>
+57: 
+58:     <table>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 22:39:02.814 SEVERE [http-nio-48080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53:     <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:   // JSON �뜲�씠�꽣 �뙆�떛
+56:   JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:   // �븘�슂�븳 媛� 異붿텧
+59:   String todo = jsonObject.getString("todo");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 22:39:40.594 SEVERE [http-nio-48080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 22:39:46.939 SEVERE [http-nio-48080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+05-Jul-2023 23:04:46.779 SEVERE [http-nio-48080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/todolist]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [54] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved
+51: 
+52: <footer>
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+JSP 파일 [/jsp/todolist.jsp]의 [56] 행에서 오류가 발생했습니다.
+jsonData cannot be resolved to a variable
+53: <%
+54: if (jsonData != null && !jsonData.isEmpty()) {
+55:     // JSON �뜲�씠�꽣 �뙆�떛
+56:     JSONObject jsonObject = new JSONObject(jsonData);
+57: 
+58:     // �븘�슂�븳 媛� 異붿텧
+59:     String todo = jsonObject.getString("todo");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
